@@ -13,10 +13,15 @@ const client = new TwitterApi({
   try {
     // 📝 Isi tweet kamu di sini (nanti aku bantu isi sesuai request kamu)
     const textTweet = `
-Klaim guyss lumayan cuan nih buat order rame-rame 🥳🥳
-👍 https://spf.shopee.co.id/4q8LzMllWH
+ShopeeFood lagi bagi-bagi promo 💥
+Potongan 100% sampai 30RB, berlaku semua resto ✨
+Khusus akun terpilih 💌
 
-daget giveaway beli gofood grabfood kode promo voc gacoan wts wtb voucher shopeefood lazada selasa rabu
+Klik buat klaim 👇
+https://spf.shopee.co.id/9pWwmb8Mfi
+
+gofood grabfood promo gojek grab sfood voucher gacoan gratis ongkir shopeepay
+
 `;
 
     // 📸 Upload 1 gambar dari repo
@@ -33,6 +38,7 @@ daget giveaway beli gofood grabfood kode promo voc gacoan wts wtb voucher shopee
     console.error('❌ Gagal kirim tweet:', error);
   }
 })();
+
 
 
 
