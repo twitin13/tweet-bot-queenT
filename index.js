@@ -13,15 +13,13 @@ const client = new TwitterApi({
   try {
     // 📝 Isi tweet kamu di sini (nanti aku bantu isi sesuai request kamu)
     const textTweet = `
-ShopeeFood lagi bagi-bagi promo 💥
-Potongan 100% sampai 30RB, berlaku semua resto ✨
-Khusus akun terpilih 💌
+ShopeeFood Deals murah banget jadi cuma Rp1 an aja 😭🍗 
 
-Klik buat klaim 👇
-https://spf.shopee.co.id/9pWwmb8Mfi
+Klaim disini sebelum habiss yaa👇
+spf.shopee.co.id/1BGJcG9ALH
+spf.shopee.co.id/1BGJcG9ALH
 
-gofood grabfood promo gojek grab sfood voucher gacoan gratis ongkir shopeepay
-
+t. jual beli daget gofood grabfood kode promo voc go grab shopee food sfood diskon voucher
 `;
 
     // 📸 Upload 1 gambar dari repo
@@ -38,6 +36,7 @@ gofood grabfood promo gojek grab sfood voucher gacoan gratis ongkir shopeepay
     console.error('❌ Gagal kirim tweet:', error);
   }
 })();
+
 
 
 
